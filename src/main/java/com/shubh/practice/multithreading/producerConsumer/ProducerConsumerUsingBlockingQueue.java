@@ -1,4 +1,4 @@
-package com.shubh.practice.multithreading;
+package com.shubh.practice.multithreading.producerConsumer;
 
 import java.util.Random;
 import java.util.concurrent.ArrayBlockingQueue;
