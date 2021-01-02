@@ -5,10 +5,6 @@ import java.util.Scanner;
 public class RepeatedString {
     public static void main(String[] args) {
         try(Scanner scanner = new Scanner(System.in)) {
-//            System.out.println("Enter String");
-//            String s = scanner.next();
-//            System.out.println("Enter number of repetitions");
-//            Long n = scanner.nextLong();
             long times = repeatedString("aba", 10);
             System.out.println(times);
         }

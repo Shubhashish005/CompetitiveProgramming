@@ -6,7 +6,7 @@ import java.util.concurrent.BlockingQueue;
 
 public class ProducerConsumerUsingBlockingQueue {
 
-    private static BlockingQueue<Integer> blockingQueue = new ArrayBlockingQueue<Integer>(10);
+    private static BlockingQueue<Integer> blockingQueue = new ArrayBlockingQueue<>(10);
     private static Random random = new Random();
 
     public static void main(String[] args) {
