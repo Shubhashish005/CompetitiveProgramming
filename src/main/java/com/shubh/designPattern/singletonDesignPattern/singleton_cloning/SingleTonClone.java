@@ -1,4 +1,4 @@
-package com.shubh.designPattern.singleton_cloning;
+package com.shubh.designPattern.singletonDesignPattern.singleton_cloning;
 
 public class SingleTonClone implements Cloneable {
 

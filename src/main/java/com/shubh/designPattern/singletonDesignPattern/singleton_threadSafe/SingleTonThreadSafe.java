@@ -1,4 +1,4 @@
-package com.shubh.designPattern.singleton_threadSafe;
+package com.shubh.designPattern.singletonDesignPattern.singleton_threadSafe;
 
 public class SingleTonThreadSafe {
 

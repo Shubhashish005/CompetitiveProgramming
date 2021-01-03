@@ -1,4 +1,4 @@
-package com.shubh.designPattern.singleton_eager;
+package com.shubh.designPattern.singletonDesignPattern.singleton_eager;
 
 public class SingleTonUsingEager {
 

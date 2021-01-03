@@ -1,4 +1,4 @@
-package com.shubh.designPattern.singleton_billPugh;
+package com.shubh.designPattern.singletonDesignPattern.singleton_billPugh;
 
 public class ClientTest {
 

@@ -1,4 +1,4 @@
-package com.shubh.designPattern.singleton_lazy;
+package com.shubh.designPattern.singletonDesignPattern.singleton_lazy;
 
 public class SingleTonUsingLazy {
 

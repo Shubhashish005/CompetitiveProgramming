@@ -1,4 +1,4 @@
-package com.shubh.designPattern.singleton_static;
+package com.shubh.designPattern.singletonDesignPattern.singleton_static;
 
 public class SingleTonUsingStaticInitialization {
 

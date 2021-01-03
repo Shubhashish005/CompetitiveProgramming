@@ -1,4 +1,4 @@
-package com.shubh.designPattern.singleton_break_reflection;
+package com.shubh.designPattern.singletonDesignPattern.singleton_break_reflection;
 
 public class SingleTonBreak {
 
