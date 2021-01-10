@@ -1,4 +1,4 @@
-package com.shubh.dataStructure.recursion;
+package com.shubh.dataStructure.recursion.subsetSum;
 
 /*
     Given a set of non-negative integers, and a value sum,
