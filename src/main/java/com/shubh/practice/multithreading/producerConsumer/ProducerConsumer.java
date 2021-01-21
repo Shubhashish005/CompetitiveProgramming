@@ -42,6 +42,7 @@ class Producer implements Runnable {
 class Consumer implements Runnable {
     Value value;
     public Consumer(Value value){
+
         this.value = value;
         Thread thread2 = new Thread(this, "Consumer");
         thread2.start();

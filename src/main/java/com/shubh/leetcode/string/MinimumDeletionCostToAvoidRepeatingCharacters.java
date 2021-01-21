@@ -2,14 +2,15 @@ package com.shubh.leetcode.string;
 
 public class MinimumDeletionCostToAvoidRepeatingCharacters {
 
-    private static final String S = "aaabbbabbbb";
-    private static final int[] C = {3, 5, 10, 7, 5, 3, 5, 5, 4, 8, 1};
+    private static final String S = "aaa";
+    private static final int[] C = {3, 4, 5};
 
     private static int solution() {
 
-        int sum = 0;
         int ans = 0;
+        int sum = 0;
         int max = 0;
+
         for (int i = 0; i < S.length(); i++) {
             if (i > 0 && S.charAt(i) != S.charAt(i - 1)) {
                 ans = ans + (sum - max);

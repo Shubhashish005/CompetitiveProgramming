@@ -8,6 +8,7 @@ public class SingleTonClone implements Cloneable {
     }
 
     public static SingleTonClone getInstance() {
+
         if (INSTANCE == null) {
             INSTANCE = new SingleTonClone();
         }
@@ -18,4 +19,5 @@ public class SingleTonClone implements Cloneable {
     protected Object clone() throws CloneNotSupportedException {
         return super.clone();
     }
+
 }
