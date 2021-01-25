@@ -1,16 +1,16 @@
-package com.shubh.practice.utility;
+package com.shubh.practice.interview;
 
-public class Employee implements Comparable<Employee>, Cloneable {
+public class Employee {
 
-    private int id;
+    private Integer id;
     private String name;
 
-    public Employee(int id, String name) {
+    public Employee(Integer id, String name) {
         this.id = id;
         this.name = name;
     }
 
-    public int getId() {
+    public Integer getId() {
         return id;
     }
 
@@ -32,15 +32,5 @@ public class Employee implements Comparable<Employee>, Cloneable {
                 "id=" + id +
                 ", name='" + name + '\'' +
                 '}';
-    }
-
-    @Override
-    public int compareTo(Employee o) {
-        return this.id - o.id;
-    }
-
-    @Override
-    public Employee clone() throws CloneNotSupportedException {
-        return (Employee) super.clone();
     }
 }

@@ -19,7 +19,7 @@ public class SortHashMapOnValues {
         hashMap.put("Swarn", 4);
 
         List<Entry<String, Integer>> list = new ArrayList<>(hashMap.entrySet());
-        Collections.sort(list, (o1, o2) -> o2.getValue() - o1.getValue());
+        Collections.sort(list, (o1, o2) -> o2.getValue().compareTo(o1.getValue()));
         System.out.println(hashMap);
         Collections.sort(list, (o1, o2) -> o2.getValue() - o1.getValue());
         System.out.println(hashMap);
