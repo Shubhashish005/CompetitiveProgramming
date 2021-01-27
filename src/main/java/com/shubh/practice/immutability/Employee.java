@@ -1,4 +1,4 @@
-package com.shubh.practice.utility;
+package com.shubh.practice.immutability;
 
 public class Employee implements Comparable<Employee>, Cloneable {
 

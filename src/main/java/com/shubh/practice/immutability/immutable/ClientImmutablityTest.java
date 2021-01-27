@@ -1,6 +1,6 @@
-package com.shubh.practice.utility.immutable;
+package com.shubh.practice.immutability.immutable;
 
-import com.shubh.practice.utility.Employee;
+import com.shubh.practice.immutability.Employee;
 
 import java.util.List;
 import java.util.Map;

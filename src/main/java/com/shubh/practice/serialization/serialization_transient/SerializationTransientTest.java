@@ -1,5 +1,8 @@
 package com.shubh.practice.serialization.serialization_transient;
 
+import com.shubh.utility.Employee;
+import com.shubh.utility.FetchEmployeeDetails;
+
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
@@ -23,7 +26,7 @@ public class SerializationTransientTest {
     }
 
     private static void serializeEmployee(String filename) {
-        Employee employee = new Employee(2, "Raj", 12, "Raj@gmail.com", "raj@123");
+        Employee employee = FetchEmployeeDetails.getEmployeeList().get(0);
         try (ObjectOutputStream oos = new ObjectOutputStream(new FileOutputStream(new File(filename)))) {
             oos.writeObject(employee);
         } catch (FileNotFoundException e) {
