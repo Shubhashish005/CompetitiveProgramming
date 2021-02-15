@@ -16,8 +16,8 @@ public class ProducerConsumerUsingConditionLock {
 
     public static void main(String[] args) {
 
-        Thread thread1 = new Thread(() -> produce(), "ProducerThread");
-        Thread thread2 = new Thread(() -> consume(), "ConsumerThread");
+        Thread thread1 = new Thread(ProducerConsumerUsingConditionLock::produce, "ProducerThread");
+        Thread thread2 = new Thread(ProducerConsumerUsingConditionLock::consume, "ConsumerThread");
         thread1.start();
         thread2.start();
     }

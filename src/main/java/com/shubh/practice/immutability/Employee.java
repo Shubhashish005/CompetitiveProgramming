@@ -28,7 +28,7 @@ public class Employee implements Comparable<Employee>, Cloneable {
 
     @Override
     public String toString() {
-        return "Employee{" +
+        return "Person{" +
                 "id=" + id +
                 ", name='" + name + '\'' +
                 '}';

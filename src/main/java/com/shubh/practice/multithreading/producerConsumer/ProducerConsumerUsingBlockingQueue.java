@@ -11,8 +11,8 @@ public class ProducerConsumerUsingBlockingQueue {
 
     public static void main(String[] args) {
 
-        Thread producerThread = new Thread(() -> producer());
-        Thread consumerThread = new Thread(() -> consumer());
+        Thread producerThread = new Thread(ProducerConsumerUsingBlockingQueue::producer);
+        Thread consumerThread = new Thread(ProducerConsumerUsingBlockingQueue::consumer);
 
         producerThread.start();
         consumerThread.start();

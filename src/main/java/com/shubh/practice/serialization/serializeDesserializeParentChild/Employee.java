@@ -54,7 +54,7 @@ public class Employee extends Person implements Serializable {
 
     @Override
     public String toString() {
-        return "Employee{" +
+        return "Person{" +
                 "email='" + email + '\'' +
                 ", password='" + password + '\'' +
                 '}';
