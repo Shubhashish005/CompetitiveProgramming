@@ -1,20 +1,8 @@
 package com.shubh.dataStructure.LinkedList;
 
-import static java.lang.System.out;
-
-class Node {
-
-    Node next;
-    int data;
-
-    Node(int data) {
-        this.data = data;
-    }
-}
-
 public class LinkedList {
 
-    private Node head;
+    /*private Node head;
 
     void insertData(int data) {
         if (head == null) {
@@ -87,5 +75,5 @@ public class LinkedList {
             current = current.next;
         }
         out.print(current.data + "\n");
-    }
+    }*/
 }

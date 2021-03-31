@@ -15,7 +15,6 @@ public class Sorting {
     public static void main(String[] args) {
 
         List<Employee> employeeList = FetchEmployeeDetails.getEmployeeList();
-
         System.out.println("Sorting Person List by name --- using Collections.sort");
         Collections.sort(employeeList, Comparator.comparing(Employee::getName));
         System.out.println(employeeList);

@@ -9,9 +9,9 @@ public class ComputerFactory {
     private ComputerFactory() {
     }
 
-    public static Computer getInstance(COmputerType cOmputerType, String ram, String hdd, String cpu, Boolean isGraphicsEnabled, Boolean isBluetoothEnabled) {
+    public static Computer getInstance(ComputerType computerType, String ram, String hdd, String cpu, Boolean isGraphicsEnabled, Boolean isBluetoothEnabled) {
 
-        switch (cOmputerType) {
+        switch (computerType) {
             case PC:
                 return new PC(ram, hdd, cpu, isGraphicsEnabled, isBluetoothEnabled);
             case LAPTOP:

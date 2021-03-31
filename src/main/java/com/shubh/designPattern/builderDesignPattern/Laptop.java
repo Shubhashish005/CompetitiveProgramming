@@ -16,26 +16,6 @@ public class Laptop {
         this.isBluetoothEnabled = laptopBuilder.isBluetoothEnabled;
     }
 
-    public String getRam() {
-        return ram;
-    }
-
-    public String getHdd() {
-        return hdd;
-    }
-
-    public String getCpu() {
-        return cpu;
-    }
-
-    public boolean getGraphicsEnabled() {
-        return isGraphicsEnabled;
-    }
-
-    public boolean getBluetoothEnabled() {
-        return isBluetoothEnabled;
-    }
-
     @Override
     public String toString() {
         return "Laptop{" +

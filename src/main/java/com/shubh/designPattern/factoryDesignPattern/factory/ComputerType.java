@@ -1,6 +1,6 @@
 package com.shubh.designPattern.factoryDesignPattern.factory;
 
-public enum COmputerType {
+public enum ComputerType {
 
     PC,
     SERVER,

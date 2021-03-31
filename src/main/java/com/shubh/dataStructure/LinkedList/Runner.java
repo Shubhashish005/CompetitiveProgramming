@@ -1,28 +1,32 @@
 package com.shubh.dataStructure.LinkedList;
 
+import static com.shubh.dataStructure.LinkedList.InsertLinkedList.insertNode;
+import static com.shubh.dataStructure.LinkedList.MiddleNodeLinkedList.middleNode;
+
 public class Runner {
 
     public static void main(String[] args) {
 
-        LinkedList linkedList = new LinkedList();
-        System.out.println("------ Insert Data -----------");
-        linkedList.insertData(20);
-        linkedList.insertData(10);
-        linkedList.insertData(50);
-        linkedList.insertData(70);
-        linkedList.showData();
-        System.out.println("------ Insert Data printed -----------");
-        System.out.println("------ Insert Data At Start -----------");
-        linkedList.insertDataAtStart(25);
-        linkedList.showData();
-        System.out.println("------ Insert Data At Start printed -----------");
-//        System.out.println("------ Insert Data At Index -----------");
-//        linkedList.insertDataAtIndex(2, 22);
-//        linkedList.showData();
-//        System.out.println("------ Insert Data At Index Printed-----------");
-        System.out.println("------ Delete Data -----------");
-        linkedList.deleteData(50);
-        linkedList.showData();
-        System.out.println("------ Delete Data printed-----------");
+        Node root = null;
+        LinkedList a = new LinkedList();
+
+        root = insertNode(12, root);
+        root = insertNode(99, root);
+        root = insertNode(37, root);
+        root = insertNode(8, root);
+        root = insertNode(18, root);
+
+        System.out.println("Printing Linked List");
+        Node middleNode = middleNode(root);
+        System.out.println(middleNode.data);
+
+        /*System.out.println("Printing Linked List");
+        printList(root);
+        System.out.println();
+
+
+        System.out.println("Sorting Linked List");
+        Node sorted = mergeSort(root);
+        printList(sorted);*/
     }
 }

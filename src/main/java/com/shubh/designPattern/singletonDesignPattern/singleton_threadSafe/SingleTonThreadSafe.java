@@ -4,7 +4,7 @@ public class SingleTonThreadSafe {
 
     private static SingleTonThreadSafe INSTANCE;
 
-    public SingleTonThreadSafe() {
+    private SingleTonThreadSafe() {
     }
 
     public static SingleTonThreadSafe getInstance() {
