@@ -1,7 +1,8 @@
 package com.shubh.dataStructure.LinkedList;
 
 import static com.shubh.dataStructure.LinkedList.InsertLinkedList.insertNode;
-import static com.shubh.dataStructure.LinkedList.MiddleNodeLinkedList.middleNode;
+import static com.shubh.dataStructure.LinkedList.PrintLinkedList.printList;
+import static com.shubh.dataStructure.LinkedList.ReverseLinkedList.reverseLinkedList;
 
 public class Runner {
 
@@ -10,23 +11,29 @@ public class Runner {
         Node root = null;
         LinkedList a = new LinkedList();
 
-        root = insertNode(12, root);
-        root = insertNode(99, root);
-        root = insertNode(37, root);
-        root = insertNode(8, root);
-        root = insertNode(18, root);
+        root = insertNode(5, root);
+        root = insertNode(4, root);
+        root = insertNode(3, root);
+        root = insertNode(2, root);
+        root = insertNode(1, root);
 
-        System.out.println("Printing Linked List");
+        /*System.out.println("Printing Linked List");
         Node middleNode = middleNode(root);
         System.out.println(middleNode.data);
 
-        /*System.out.println("Printing Linked List");
+        System.out.println("--------------------");
+        System.out.println("Printing Linked List");
         printList(root);
-        System.out.println();
 
-
+        System.out.println("--------------------");
         System.out.println("Sorting Linked List");
         Node sorted = mergeSort(root);
-        printList(sorted);*/
+        printList(sorted);
+
+        System.out.println("--------------------");
+*/
+        System.out.println("Reverse a linked List");
+        Node reversedLinkedList = reverseLinkedList(root);
+        printList(reversedLinkedList);
     }
 }
